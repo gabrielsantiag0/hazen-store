@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/FaleConosco.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fale-Conosco</title>
+</head>
+<body class="fundo">
+  <!-- cabeçario -->
+    <div class="header">
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"> <img class="logo" src="img/logoHazen.png" alt="logo da Hazen"> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse fs-4" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-5">
+                    <a class="nav-link text-black" href="#"></a>
+                  </li>
+                   <li class="nav-item mx-5">
+                    <a class="nav-link text-black" href="#"></a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link text-black" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link text-black" href="sobrenos.html">Sobre nós</a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link text-black" href="sapatoroupas.html">Produtos</a>
+                  </li>
+                  <li class="nav-item mx-5">
+                    <a class="nav-link text-black" href="#">Fale conosco</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+       <!-- formulario fale-conosco  -->
+      <main>
+       <div class="green">
+        <h4 class="text-center text-black mt-5 m-3">
+            FALE-CONOSCO
+        </h4>
+       </div>
+      
+       <div class="mt-5 d-flex justify-content-center">
+        <img src="Img/faleConosco.JPG" class="rounded-3 img-thumbnail" alt="" width="760px">
+       </div>
+       <div>
+        <h4 class="fs-5 text-center mx-3 mt-3">
+            Utilize este espaço para enviar sugestões, dúvidas, elogios ou reclamações.
+        </h4>
+       </div>
+       <div class="d-flex justify-content-center">
+          <div class="col-6">
+            <div class="green">
+              <h1 class="text-center m-2 text-black">Contato</h1>
+            </div>
+          <div class="card mb-3">
+            <div class="card-body">
+            <form id="FaleConosco">
+                <div class="form-group text-center my-3">
+                  <label class="my-2" for="nome">Nome completo*</label>
+                  <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite o seu Nome...">
+                </div>
+                <div class="form-group text-center my-3">
+                  <label class="my-2" for="email">Email*</label>
+                  <input class="form-control" type="email" name="email" id="email" placeholder="Digite seu Email...">
+                </div>
+                <div class="form-group text-center my-3">
+                  <label class="my-2" for="assunto">Assunto*</label>
+                  <select class="form-select" id="assunto" aria-label="Floating label select example">
+                    <option selected></option>
+                    <option value="1">Informações</option>
+                    <option value="2">Duvidas</option>
+                    <option value="3">Suguestões</option>
+                    <option value="3">Elogios</option>
+                    <option value="3">Agradecimentos</option>
+                    <option value="3">Reclamações</option>
+                    <option value="3">Outros</option>
+                  </select>
+                </div>
+                  <div class="form-group text-center my-3">
+                    <label class="my-2" for="mensagem">Mensagem*</label>
+                    <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Digite a Mensagem..."></textarea>
+                  </div>
+                  <div class="form-group text-center mt-3 mb-4">
+                    <button type="submit" class="text-white bg-danger p-3 rounded-3 border-0" id="enviar">Enviar</button>
+                  </div>
+                  <div class="alert alert-danger text-center d-none">
+                    Prencha o campo XXXX
+                  </div>
+            </form>
+          </div>
+        </div>
+        </div>
+       </div>
+      </main>
+    <!-- rodapé -->
+    <footer class="green mt-5 d-block">
+        <div class="row text-center">    
+          <div class="col-4">
+            <div class="row">
+                <div class="col d-block">
+                  <div class="col d-block p-5">
+                  <ul>
+                    <h6 class="pt-3 text-black text-decoration-underline">
+                      LINKS
+                    </h6>
+                    <li class="text-black text-center">
+                      <h6> <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="index.html">Home</a></h6>
+                      <h6> <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="produtos.html">Produtos</a></h6>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col">
+                  <div class="col d-block">
+                    <div class="mt-5">
+                    <h6 class="p-3"><a href="faleconosco.html" class="text-black">FALE-CONOSCO</a></h6>
+                  </div>
+                  <div class="text-black">
+                    Telefone: (11) 9103-4967
+                  </div> <br>
+                  <div>
+                    <p class="text-black fs-5">Nossos Canais:</p>
+                    <div class="row d-flex justify-content-center">
+                        <div class="d-flex justify-content-evenly">
+                          <a class="img-fluid" href="https://www.instagram.com/"><img src="Img/instagramIcone.png" alt="" width="40px"></a>
+                          <a class="img-fluid" href="https://pt-br.facebook.com/"><img src="Img/facebook.png" alt="" width="40px"></a>
+                          <a class="img-fluid" href="https://twitter.com/i/flow/login"><img src="Img/twitter.png" alt="" width="40px"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+              <div class="col-8">
+          <div class="d-block">
+           <a href="index.html">
+            <img src="Img/logoHazen.png" alt="" class="logoFooter">
+           </a>
+            <div class="text-black">
+                <p class="text-black fs-5">A plataforma pode ser acessada pelo site ou aplicativo e permite que empreendedores criem uma loja online para vender produtos aos consumidores que acessam a plataforma.</p>
+                <h5>
+                  Fundada por: <br> Nathalia, Lethicia, Estevão, Daniel, Liris e Fernando.
+                </h5>
+            </div>
+            <div>
+              <p class="text-black">
+                A acesse <a class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover" href="sobrenos.html">Sobré nós</a> e nos conheça.  
+              </p>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="row text-center me-5">
+           <a class="nav-link" href="https://github.com/gabrielsantiag0"><h6 class="text-black ms-5">Desenvolvido por Gabriel santiago :)&trade; 2023</h6>
+           </a>
+          </div>
+       </footer>  
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="Js/bootstrap.min.js"></script>
+<script src="Js/FaleConosco.js"></script>
+</html>

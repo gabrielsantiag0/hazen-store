@@ -1,19 +1,9 @@
-.green{
-    background-color: #9deb97;
-}
-.logo{
-    width: 40px;
-}
 
-.produtos img{
-    width: 50px; 
-}
 *{
     margin: 0%;
+    padding: 0%;
 }
-.row{
-    margin: 0%;
-}
+
 ul{
     text-decoration: none;
     list-style: none;
@@ -23,10 +13,10 @@ li{
     list-style: none;
 
 }
-.logoFooter{
-    width: 80px;
+.row{
+    margin: 0%;
+    padding: 0%;
 }
-
 /* botao volta para o inicio */
 .voltar-ao-topo {
     position: fixed;
